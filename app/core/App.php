@@ -4,7 +4,7 @@ class App {
     public function __construct()
     {
         $url=$this->ParseUrl();
-        var_dump($url);
+        echo "ok";
     }
 
     public function ParseUrl()
