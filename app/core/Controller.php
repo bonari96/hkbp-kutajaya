@@ -1,8 +1,8 @@
 <?php
 
 class Controller {
-    public function __construct()
+    public function view($view,$data=[])
     {
-        echo var_dump($_GET);
+        require_once "../app/views/" . $view . ".php";
     }
 }
